@@ -8,7 +8,7 @@ export function meta(){
         {
             charset: 'utf-8',
             title: 'GuitarLA - Remix',
-            viewport: 'width=device-width,initial-scale-1'
+            viewport: 'width=device-width, initial-scale=1.0'
         }
     )
 }
