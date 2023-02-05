@@ -1,53 +1,20 @@
-# Welcome to Remix!
+# GuitarLA!
 
-- [Remix Docs](https://remix.run/docs)
+## Deployment en Vercel
+* [GuitarLA](https://guitar-la-remix-inky.vercel.app/)
 
-## Development
+## Instruccions para su uso
 
-From your terminal:
+* Npm i / Npm install --- En la terminal
 
-```sh
-npm run dev
-```
+* Deberas crear un archivo .env que contenga la siguiente Key : API_URL y le puedes asignar la siguiente API a la cual ya le hice deploy y es parte de este proyecto https://guitarla-strapi-ckhb.onrender.com/api
+* [Repo de la API](https://github.com/LuisMcfly/GuitarLAStrapi)
+* [Respuesta de la API al consultar Guitarras](https://guitarla-strapi-ckhb.onrender.com/api/guitarras)
+* [Respuesta de la API al consultar Posts](https://guitarla-strapi-ckhb.onrender.com/api/posts)
+* [Respuesta de la API al consultar Curso](https://guitarla-strapi-ckhb.onrender.com/api/curso)
 
-This starts your app in development mode, rebuilding assets on file changes.
+* Npm run dev --- Para levantarlo en el servidor local
 
-## Deployment
+-------------------------------
 
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
-
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
+## Proyecto realizado en base al curso de Juan Pablo De La Torre Valdez -- React
